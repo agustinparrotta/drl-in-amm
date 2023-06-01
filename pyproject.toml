@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drl-in-amm"
+version = "0.1.0"
+description = ""
+authors = ["Agustin Parrotta <agustinparrotta@gmail.com>"]
+readme = "README.md"
+packages = [{include = "drl_in_amm", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+gym = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
